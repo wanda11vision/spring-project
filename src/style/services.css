@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.smain {
+    height: 100vh;
+    width: 100%;
+}
+.service {
+    height: 200%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.ser1 {
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 100%;
+    color: white;
+    background-color: rgb(15, 41, 33);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.ser2 {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+
+.s2 {
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.s2img {
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 50%;
+    background-image: url("https://springwealthservices.com/wp-content/uploads/2024/08/pexels-photo-6802042-6802042-1024x647.jpg");
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+
+.s2txt {
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s3 {
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.s3img {
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 50%;
+    background-image: url("https://springwealthservices.com/wp-content/uploads/2024/08/g072f9043862885079abc9d5cc219cf6fc9991c99a2481dda4cdc4a09d296d050c8c8676f36094a52297ba24c26ed3503f3eec7fffc6126e0198ff4da554f1c1e_1280-5902664-1024x697.jpg");
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+
+
+
+.s4 {
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.s4img {
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 50%;
+    background-image: url("https://springwealthservices.com/wp-content/uploads/2024/08/pexels-photo-8297425-8297425-1024x682.jpg");
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width:700px) {
+   
+    .ser1 {
+        height: 20%;
+        font-size: 12px;
+    }
+
+    .ser2{
+        height: 80%;
+        width: 90%;
+    }
+
+    .s2 {
+        height: 33%;
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .s2img {
+        height: 50%;
+        width: 100%;
+    }
+
+    .s2txt {
+        height: 50%;
+        width: 100%;
+        font-size: 8px;
+        text-align: center;
+    }
+
+
+    .s3 {
+        height: 33%;
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .s3img {
+        height: 50%;
+        width: 100%;
+    }
+
+    .s4 {
+        height: 33%;
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .s4img {
+        height: 50%;
+        width: 100%;
+    }
+
+}
